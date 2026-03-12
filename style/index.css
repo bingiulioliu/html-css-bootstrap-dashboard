@@ -1,3 +1,4 @@
+/*HEADER*/
 .top {
     height: 80px;
 }
@@ -6,4 +7,10 @@
 }
 .paperella {
     height: 90%;
+}
+.navbar-toggler-icon {
+    --bs-navbar-color:white;
+}
+.navbar-toggler {
+    --bs-navbar-toggler-border-color: white;
 }
