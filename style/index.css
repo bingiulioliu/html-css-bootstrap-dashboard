@@ -20,3 +20,6 @@ form button {
 form input {
     height: 80%;
 }
+.main-contain {
+    max-width: 80%;
+}
