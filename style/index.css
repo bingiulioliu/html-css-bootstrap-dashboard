@@ -9,7 +9,7 @@
     height: 90%;
 }
 .navbar-toggler-icon {
-    --bs-navbar-color:white;
+    filter: invert(1);
 }
 .navbar-toggler {
     --bs-navbar-toggler-border-color: white;
