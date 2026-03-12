@@ -23,7 +23,7 @@ Così facendo il codice CSS custom che scriverete risulterà abbastanza ridotto.
             container
                 Catalogo libri
                 btn aggiungi libr
-            container
+            table
                 titolo - stato - azione + (*12)
         scheda todo
-        scheda FAQ
+        scheda FAQ accortion
