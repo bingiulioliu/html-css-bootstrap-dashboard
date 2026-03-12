@@ -14,3 +14,9 @@
 .navbar-toggler {
     --bs-navbar-toggler-border-color: white;
 }
+form button {
+    height: 80%;
+}
+form input {
+    height: 80%;
+}
