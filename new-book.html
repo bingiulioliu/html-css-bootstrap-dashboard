@@ -54,9 +54,77 @@
         </div>
     </header>
     <main>
-
+        <form class="container mt-4">
+            <!-- TITOLO -->
+            <div class="row">
+                <div class="">
+                    <h3>Nuovo Libro</h3>
+                </div>
+            </div>
+            <!-- Nome e Cognome autore -->
+            <div class="row mt-4">
+                <div class="col-6">
+                    <label for="AuthorFirstName" class="form-label">Nome Autore</label>
+                    <textarea class="form-control text-capitalize" id="AuthorFirstName" rows="1"
+                        placeholder="Inserisci il nome"></textarea>
+                </div>
+                <div class="col-6">
+                    <label for="AuthorLastName" class="form-label">Cognome Autore</label>
+                    <textarea class="form-control text-capitalize" id="AuthorLastName" rows="1"
+                        placeholder="Inserisci il cognome"></textarea>
+                </div>
+            </div>
+            <!-- Titolo libro -->
+            <div class="row mt-4">
+                <div class="col">
+                    <label for="BookTitle" class="form-label">Titolo</label>
+                    <textarea class="form-control text-capitalize" id="BookTitle" rows="1"
+                        placeholder="Inserisci il titolo del libro"></textarea>
+                    <div id="BookTitle" class="form-text">Titolo versione italiana</div>
+                </div>
+            </div>
+            <!-- Genere Libro -->
+            <div class="row mt-4">
+                <div class="col">
+                    <label for="BookGenre" class="form-label">Genere</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Scegli il genere</option>
+                        <option value="narrativa">Narrativa Contemporanea</option>
+                        <option value="giallo">Giallo e Investigativo</option>
+                        <option value="thriller">Thriller e Noir</option>
+                        <option value="fantasy">Fantasy</option>
+                        <option value="fantascienza">Fantascienza</option>
+                        <option value="horror">Horror</option>
+                        <option value="romance">Rosa / Romance</option>
+                        <option value="storico">Romanzo Storico</option>
+                        <option value="biografia">Biografia e Memorie</option>
+                        <option value="saggistica">Saggistica</option>
+                        <option value="classici">Classici</option>
+                        <option value="avventura">Avventura</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Anno di Pubblicazione -->
+            <div class="row mt-4">
+                <div class="col">
+                    <label for="ReleaseDate" class="form-label">Anno di Pubblicazione</label>
+                    <textarea class="form-control text-capitalize" id="ReleaseDate" rows="1"
+                        placeholder="Inserisci l'anno"></textarea>
+                </div>
+            </div>
+            <!-- ISBN# -->
+            <div class="row mt-4">
+                <div class="col">
+                    <label for="ISBN" class="form-label">ISBN#</label>
+                    <textarea class="form-control text-capitalize" id="ISBN" rows="1"
+                        placeholder="Inserisci il codice ISBN#"></textarea>
+                </div>
+            </div>
+        </form>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 </body>
+
+</html>
